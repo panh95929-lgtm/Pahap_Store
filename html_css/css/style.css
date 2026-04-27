@@ -149,7 +149,7 @@ body{
 
 /*Home page*/
 #hero {
-    background-image: url("banner_hong.jpg");
+    background-image: url("../../img/banner_hong.jpg");
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -158,7 +158,7 @@ body{
 }
 
 .btn-banner {
-    background-image: url("button.png");
+    background-image: url("../../img/button.png");
     position: absolute; 
     top: 65%;  
     left: 32.5%;
@@ -306,7 +306,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url("phong.jpg");
+    background-image: url("../../img/phong.jpg");
     width: 100%;
     height: 50vh;
     background-size: cover;
@@ -385,11 +385,11 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url(bannertiep3.png);
+    background-image: url("../../img/bannertiep3.png");
     width: 45%;
     min-width: 500px;
     height: 50vh;
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(bannertiep3.png);
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../../img/bannertiep3.png");
     background-size: cover;
     background-position: center;
     padding: 30px;
@@ -397,7 +397,7 @@ body{
     overflow: hidden;
 }
 #sm-banner .banner-box2{
-    background-image: url(bannertiep2.png);
+    background-image: url("../../img/bannertiep2.png");
 }
 #sm-banner h4 {
     color: #fff;
@@ -426,7 +426,7 @@ body{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url("phong.jpg");
+    background-image: url("../../img/phong.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -536,7 +536,7 @@ footer .copyright{
 /*SHOP PAGE*/
 /*pageheader*/
 #page-header{
-    background-image: url(banner_shop.png);
+    background-image: url("../../img/banner_shop.png");
     width: 100%;
     height: 50vh;
     background-size: cover;
