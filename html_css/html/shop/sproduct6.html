@@ -14,8 +14,10 @@
 
         <div>
             <ul id = "navbar" >
-            <li><a href="index.html"> Home</a></li>
+            <li><a href="../home/index.html"> Home</a></li>
             <li><a class="active" href="shop.html">Shop</a></li>
+            <li><a href="#login-modal">Login</a></li>
+            <li><a href="#register-modal">Register</a></li>
             <li id = "lg-hag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
             </ul>
         </div>
@@ -216,7 +218,34 @@
         </div>
     </footer>
 
+<div id="login-modal" class="modal">
+    <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <form action="">
+            <h2>Join</h2>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit" class="normal btn-continue">Continue</button>
+            <button type="button" class="normal btn-signin">Sign In</button>
+        </form>
+    </div>
+</div>
 
-
+<div id="register-modal" class="modal">
+    <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <form action="">
+            <h2>Create Account</h2>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <input type="password" placeholder="Confirm Password" required>
+            <button type="submit" class="normal btn-continue">Register Now</button>
+            <p style="margin-top: 15px; font-size: 14px;">
+                Already have an account? <a href="#login-modal" style="color: #088178;">Sign In</a>
+            </p>
+        </form>
+    </div>
+</div>
 </body>
 </html>
