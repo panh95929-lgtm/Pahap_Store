@@ -661,3 +661,47 @@ footer .copyright{
     padding: 10px;
     font-size: 13px;
 }
+
+/* login */
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1000;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal:target {
+    display: block;
+}
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 30px;
+    width: 400px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.close-btn {
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    right: 20px; top: 10px;
+    font-size: 28px;
+}
+/* register */
+#login-modal:target, 
+#register-modal:target {
+    display: block;
+}
+
+.modal-content form input {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
